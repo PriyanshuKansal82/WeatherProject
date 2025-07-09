@@ -10,7 +10,7 @@ WeatherSense is a web application that provides real-time weather information fo
 - **User-friendly Interface**: Visually appealing and easy to navigate.
 
 ## Technologies Used
-- **Frontend**: HTML5, CSS3, JavaScript
+- **Frontend**: HTML, CSS, JavaScript
 - **Geolocation API**: Fetches user coordinates for accurate weather data.
 - **Weather API**: [OpenWeatherMap](https://openweathermap.org/) (free tier).
 
