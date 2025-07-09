@@ -36,7 +36,7 @@ WeatherSense is open-source. Feel free to use, modify, and distribute the code u
 - Powered by [OpenWeatherMap API](https://openweathermap.org/).
 
 ## Contact
-- **Email**: [anantaggcsai@gmail.com](mailto:priyanshukansal59@gmail.com)
+- **Email**: [priyanshukansal59@gmail.com](mailto:priyanshukansal59@gmail.com)
 
 ---
 Enjoy using WeatherSense! Stay informed about the weather effortlessly. 🌦️
