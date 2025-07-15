@@ -7,7 +7,7 @@ const searchForm = document.querySelector("[data-searchForm]");
 const loadingScreen = document.querySelector(".loading-container");
 const userInfoContainer = document.querySelector(".user-info-container");
 
-//initially vairables need????
+//initially vairables need
 
 let oldTab = userTab;
 const API_KEY = "d1845658f92b31c64bd94f06f7188c9c";
@@ -81,8 +81,10 @@ async function fetchUserWeatherInfo(coordinates) {
     }
     catch(err) {
         loadingScreen.classList.remove("active");
-        //HW
-
+        //
+        //userInfoContainer.classList.remove("active");
+        // showError("Failed to fetch your weather data. Please try again.");
+        // console.error("Weather API Error:", err);
     }
 
 }
@@ -119,7 +121,8 @@ function getLocation() {
         navigator.geolocation.getCurrentPosition(showPosition);
     }
     else {
-        //HW - show an alert for no gelolocation support available
+        //- show an alert for no gelolocation support available
+        //showError("Geolocation is not supported by your browser. Use search instead.");
     }
 }
 
@@ -165,6 +168,20 @@ async function fetchSearchWeatherInfo(city) {
         renderWeatherInfo(data);
     }
     catch(err) {
-        //hW
+         //
+        // loadingScreen.classList.remove("active");
+        // Different error messages for different error cases
+        // let errorMessage = "Failed to fetch weather data";
+       // if (err.message.includes("404") || err.message.includes("not found")) {
+      //  errorMessage = `City "${city}" not found. Please check the spelling.`;
+       //  } else if (err.message.includes("network")) {
+      //   errorMessage = "Network error. Please check your internet connection.";
+     //  } else if (err.message.includes("Failed to fetch")) {
+    // errorMessage = "Could not connect to weather service. Please try again later.";
+    //}
+    // Display error to user
+    // showError(errorMessage);
+   // Log the full error for debugging
+  //console.error("Weather API Error:", err);
     }
 }
