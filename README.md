@@ -32,7 +32,6 @@ Contributions are welcome! If you find issues or have suggestions:
 WeatherSense is open-source. Feel free to use, modify, and distribute the code under the project's license terms.
 
 ## Acknowledgements
-- Thanks to [Love Babbar](https://www.linkedin.com/in/love-babbar-38ab2887/) for his Web Dev Course.
 - Powered by [OpenWeatherMap API](https://openweathermap.org/).
 
 ## Contact
